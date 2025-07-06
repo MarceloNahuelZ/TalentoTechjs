@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Velas aromáticas artesanales en Buenos Aires. Elaboradas con cera de soja y aceites esenciales puros. Envíos a todo el país.">
+    <meta name="keywords" content="velas aromáticas, velas artesanales, aromas, velas de soja, regalos originales">
+    <meta name="author" content="Aromas GyM">
+    <title>Aromas GyM - Velas Aromáticas</title>
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo-velas.png" type="image/png">
+</head>
+<body>
+    <!-- Header y logo -->
+    <header>
+        <div class="logo">
+            <img src="img/logo-velas.png" alt="Aromas GyM">
+        </div>        
+        <p>Velas que iluminan tus sentidos</p>
+    </header>
+
+    <!-- Nav-->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Velas</a></li>
+            <li><a href="#reseñas">Clientes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li>
+                <a href="#carrito" id="link-carrito">
+                    🛒 <span id="contador-carrito" class="contador">0</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-text">
+                <h2 id="hero-title">Bienvenido a nuestro mundo de aromas</h2>
+                <p>Descubre velas artesanales con esencias únicas.</p>
+                <a href="#productos" class="btn">Ver colección</a>
+            </div>
+        </section>
+
+        <!-- Productos -->
+        <section id="productos" class="productos">
+            <h2>Nuestras Velas</h2>
+            <p>Elige entre una variedad de aromas que transformarán tu espacio.</p>
+            <div class="productos-container">
+                <div class="cargando">Cargando productos...</div>
+            </div>
+        </section>
+
+        <!-- Reseñas -->
+        <section id="reseñas" class="reseñas">
+            <h2>Nuestros Clientes</h2>
+            <div class="reseñas-container">
+                <div class="reseña">
+                    <img src="img/camila-lavanda.jpeg" alt="Cliente 1" class="avatar">
+                    <p>"Las velas de lavanda son mi terapia después del trabajo."</p>
+                    <span>- Camila</span>
+                </div>
+                <div class="reseña">
+                    <img src="img/natalia-vainilla.jpeg" alt="Cliente 2" class="avatar">
+                    <p>"La vainilla huele exactamente como mi abuela cocinando."</p>
+                    <span>- Natalia</span>
+                </div>
+            </div>
+        </section>
+
+        <!--  Contacto  -->
+        <section id="contacto" class="contacto">
+            <h2>¿Quieres algo personalizado?</h2>
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Ej: Quiero una vela con aroma a café..." required></textarea>
+        
+                <button type="submit" class="btn">Enviar consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <section id="carrito" class="carrito">
+        <h2>Tu Carrito</h2>
+        <div class="items-carrito">
+        
+        </div>
+        <div class="total-carrito">
+            <strong>Total:</strong> $<span id="total">0.00</span>
+        </div>
+        <button class="btn btn-comprar">Finalizar Compra</button>
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+        <div class="redes">
+            <a href="#"><img src="img/icono-facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/icono-instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2025 Aromas GyM. Hecho con amor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

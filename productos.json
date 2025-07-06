@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vela Lavanda",
+        "precio": 12.99,
+        "imagen": "/img/vela-lavanda.jpeg",
+        "descripcion": "Relajante y floral. Ideal para meditación."
+    },
+    {
+        "id": 2,
+        "nombre": "Vela Vainilla",
+        "precio": 10.99,
+        "imagen": "/img/vela-vainilla.jpeg",
+        "descripcion": "Aroma dulce y acogedor. Perfecto para el hogar."
+    },
+    {
+        "id": 3,
+        "nombre": "Vela Berbena",
+        "precio": 11.99,
+        "imagen": "/img/vela-berbena.jpeg",
+        "descripcion": "Energizante y fresco. Ideal para espacios abiertos."
+    }
+]
